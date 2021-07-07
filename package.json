@@ -1,0 +1,25 @@
+{
+  "name": "rodo_exercise",
+  "version": "1.0.0",
+  "description": "Cars API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/src/index.js",
+    "start-nodemon": "nodemon app/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navarrojl/rodo_exercise.git"
+  },
+  "author": "Jose Luis Navarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navarrojl/rodo_exercise/issues"
+  },
+  "homepage": "https://github.com/navarrojl/rodo_exercise#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9"
+  }
+}
