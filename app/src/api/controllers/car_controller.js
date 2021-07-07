@@ -9,8 +9,8 @@ const CarController = class CarController extends Controller {
     }
 
     async getCars(filters) {
-        // Get Cars from DATASET. If we would like to get the data from DataBase, it would be needed to create the models and manage the connection
-        // Using ORM is a good option
+        // Get Cars from DATASET. If we would like to get the data from DataBase, it would be needed to create the models and manage the connection.
+        // Using ORM is a good option.
         let cars = Cars;
         let filtered_cars = this.filterCars(cars, filters);
         let grouped_cars = this.groupCars(filtered_cars);
