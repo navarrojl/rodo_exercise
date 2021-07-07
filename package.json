@@ -20,6 +20,7 @@
   "homepage": "https://github.com/navarrojl/rodo_exercise#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mathjs": "^9.4.4",
     "nodemon": "^2.0.9"
   }
 }

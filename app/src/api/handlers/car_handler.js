@@ -10,7 +10,8 @@ const CarHandler = class CarHandler extends Handler {
 
     async getCars(req, res){
         try{
-            let cars = await this.Controller.getCars();
+            let filters = req.query;
+            let cars = await this.Controller.getCars(filters);
             return res.status(200).send(cars);
         }catch(error){
             return res.status(500).send(error);
